@@ -1,10 +1,10 @@
 # Sets the working directory. This sets it to the "rtfd" folder on my desktop
 
-setwd("C:/Users/kep/Documents/GitHub/Tax-Freedom-Day")
-
-#Clears all datasets and variables from memory
-
-rm(list=ls())
+  setwd("C:/Users/kep/Documents/GitHub/Tax-Freedom-Day")
+  
+  #Clears all datasets and variables from memory
+  
+  rm(list=ls())
 
 ########################Cbo Fiscal Year to Calendar Year Conversions############################## 
   
@@ -15,6 +15,7 @@ rm(list=ls())
     library(foreach)
     
    #starts at two, 1 is year indicator, which needs to be skipped
+      
       for (n in 2:length(cbo)){
         
         cbo[,n]<-as.numeric(foreach(i=cbo$year) %do% (cbo[,n][cbo$year==(i)]*0.75+cbo[,n][cbo$year==(i+1)]*0.25))
@@ -51,11 +52,16 @@ rm(list=ls())
     
     }
 
-#Creates calendar year estimations of data
-bealast<-NULL
-for (i in 2:length(qbea)) {
-  bealast[i]<-colMeans(qbea[i])
-}
+  #Creates calendar year estimations of data
+    
+    bealast<-NULL
+    
+    for (i in 2:length(qbea)) {
+      
+      bealast[i]<-colMeans(qbea[i])
+    
+    }
+  
 #############################Create Calendar Year Dataset############################
 
   #Imports all necessary CY data from previous years.
