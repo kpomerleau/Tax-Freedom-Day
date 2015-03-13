@@ -1,0 +1,5 @@
+year,gdp,incomereceiptsrestofworld,incomepaymentsrestofworld,nnp,consumptionfixedcapital,personalcurrenttaxes,excisetaxes,customs,fedreserve,othercit,cgsi,estatetax,statepctincome,statepctother,statesalestaxes,statepropertytaxes,stateothertopi,statecit,statecgsi,stateestatetax,pbgc,veteransemployer,workerscomp,militarymed,stateworkerscomp,suppmedical,veteransemployee,cgsidomestic,cgsiforeign,cgsirestofworld,netsaving,netlendingborrowing,capitalstock
+1,17044,822.6,611.6,14556.3,2698.7,1340.3,95.4,36.6,101.9,368.1,1134.5,,339.6,31.8,511.8,448.5,92.2,55.9,17.7,,,,,,,,,,,,-560.1,-594.6,
+2,17328.2,828.5,615,14819.5,2722.3,1356.2,96.1,37.2,106.8,406.6,1142.1,,326.9,32.2,520.5,449.5,94.6,56.8,17.7,,,,,,,,,,,,-598.6,-636.4,
+3,17599.8,847.2,617.3,15079.2,2750.4,1383.6,97.9,37.1,99.5,406.9,1154.2,,334.5,32,529.7,451,96.6,57.8,17.6,,,,,,,,,,,,-611,-644.2,
+4,17701.3,,,,2773,1415.5,97.1,38.7,,,1166.7,,344.6,32,533.2,452.6,96.4,,17.5,,,,,,,,,,,,,,
