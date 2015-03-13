@@ -1,6 +1,6 @@
 # Sets the working directory. This sets it to the "rtfd" folder on my desktop
 
-setwd("U:/Desktop Backup 2-3/rTFD")
+setwd("C:/Users/kep/Documents/GitHub/Tax-Freedom-Day")
 
 #Clears all datasets and variables from memory
 
